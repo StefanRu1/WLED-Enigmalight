@@ -34,3 +34,7 @@ I drive now 3 devices with total over 500 lights, it works like a charm.
 
 A logfile is created which shows the start and the handed over parameters in the same directory where you start the script.
 Logfile is created per device and has the ip of the device in the name.
+
+
+See: https://board.newnigma2.to/wbb4/index.php/Thread/32156-EnigmaLight-pclin-edition/
+for the complete plugin for Dreambox.
