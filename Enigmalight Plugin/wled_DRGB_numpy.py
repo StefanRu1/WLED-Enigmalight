@@ -55,8 +55,11 @@ def popen(ip, port):
 			  #spidev.flush()
 		except:
 			  print("Exception while sending to socket\n") 
+	sock.close()
+	sock = None
+	# End of popen		
 
-			
+
 #Get full command-line arguments
 full_cmd_arguments = sys.argv
 
