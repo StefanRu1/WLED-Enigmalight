@@ -43,9 +43,9 @@ import socket
 
 def popen(ip, port):	
 	url = '/json/state'
-	multired = 765 # Multiplication, you can make the light/color brighter (old 1200)
-	multigreen = 765 # Multiplication, you can make the light/color brighter (old 1250)
-	multiblue = 765 # Multiplication, you can make the light/color brighter (old 850)
+	multired = float(765) # Multiplication, you can make the light/color brighter (old 1200)
+	multigreen = float(765) # Multiplication, you can make the light/color brighter (old 1250)
+	multiblue = float(765) # Multiplication, you can make the light/color brighter (old 850)
 	spidev.write("Start processing input from wled ... \n")
 	sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) # UDP
 
