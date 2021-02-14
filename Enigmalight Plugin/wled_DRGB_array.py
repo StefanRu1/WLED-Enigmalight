@@ -101,7 +101,11 @@ def popen(ip, port):
 
 		else:
 			break
-			
+
+	sock.close()
+	sock = None
+	# End of popen
+				
 #Get full command-line arguments
 full_cmd_arguments = sys.argv
 
