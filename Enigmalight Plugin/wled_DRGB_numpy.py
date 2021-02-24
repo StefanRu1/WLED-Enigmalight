@@ -80,12 +80,12 @@ ip = sys.argv[1]
 port = sys.argv[2]
 
 #Calc filename 
-filename = '/usr/wled' + ip + '.log'
+filename = '/home/elight-addons/.enigmalight/wled' + ip + '.log'
 
 #Open logfile
 spidev = file(filename, "wb")
 #spidev = file(file, "wb")
-spidev.write("Starting ...\n")
+spidev.write("Starting WLED DRGB numpy ...\n")
 spidev.flush()
 
 #Log arguments
